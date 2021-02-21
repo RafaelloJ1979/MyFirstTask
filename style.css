@@ -37,12 +37,16 @@ button{
     background: #e63205;
     color: white;
     width: 100px;
-    height: 30px;
+    height: 35px;
     border: none;
 }
 
+::placeholder{
+    text-shadow: 5px 5px 5px;
+}
+
 input{
-    height: 30px;
+    height: 35px;
     border: none;
     padding: 5px;
 }
@@ -63,8 +67,12 @@ ol > li {
 }
 
 a{
-    text-decoration: none;
-    color: rgb(67, 77, 87);
+    text-decoration: ;
+    color: rgba(67, 77, 87, 0.781);
+}
+
+ol :hover{
+    color: rgb(0, 0, 0);
 }
 
 main{
