@@ -2,22 +2,49 @@
 
 body{
     background-color: rgba(209, 217, 253, 0.89);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: relative;    
-    height: 100%;  
-    margin: 0; im !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
 }
 
 #container{
-      
+    margin-left: auto;
+    margin-right: auto;      
+}
+
+#s{
+    font-size: 26px;
+    float: left;
+    margin-left: 150px;
+}
+
+#get{
+    border: 2px solid rgb(59, 147, 197);
+    background: none;
+    color: rgb(59, 147, 197);
+    border-radius: 2px;
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-right: 150px;
+}
+
+button{
+    background: #e63205;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+
+input{
+    height: 30px;
+    border: none;
+    padding: 5px;
 }
 
 nav{
     text-align: center;
     padding-top: 20px;   
-    height: 150px;
-    
-    
+    height: 150px;    
 }
 
 ol > li {
@@ -86,5 +113,4 @@ h4{
     bottom: 0;
     margin-bottom: 0;
     margin-top: 10px;
-    
 }
