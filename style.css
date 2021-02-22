@@ -77,6 +77,7 @@ a {
     color: rgb(47, 170, 241);
     margin-right: auto;
     font-weight: 800;
+    cursor: pointer;
 }
 
 #clear {
@@ -112,6 +113,7 @@ input {
     padding: 5px;
     outline: none;
     border-radius: 3PX;
+    cursor: pointer;
 }
 
 input> ::placeholder:hover {
