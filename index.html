@@ -9,13 +9,19 @@
     <script>
         function myFunction() {
             document.getElementById("demo").innerHTML = "Rafał Jaśkowski";
-            document.getElementById("demo").style.color = 'rgba(32, 16, 77, 0.877)';
-                }
+            document.getElementById("demo").style.color = 'rgba(1, 128, 187, 0.685)';
+            document.getElementById("demo").style.fontSize = '60px';
+        }
+        function getColor() {
+            document.getElementById("h1").innerHTML = "Rafał Jaśkowski";
+            document.getElementById("h1").style.fontSize = '60px';
+            document.getElementById("h1").style.color = 'rgba(421, 363, 17, 1.678)';
+        }
     </script>
-    <!-- dodany scrypt zmieniający treśc h1 i kolor tekstu -->
+    <!-- dodany scrypt zmieniający treśc h1 i kolor tekstu  oraz zmieniający button get started-->
 </head>
+
 <body>
-    
     <div id="container">
         <div id="nav">
             <div id="header">
@@ -30,19 +36,20 @@
                 <li><a href="#contact">Contact</a></li>
             </ol>
             <div id="button1">
-                <button id="get">Get Started</button>
+                <button1 id="getcolor" onclick="getColor()">Get Started</button>
             </div>
         </div>
         <main>
             <h2>PRESENT YOUR SERVICE</h2>
-            <h1><p id="demo">Make landing page fast and easily.</p></h1>
+            <h1 id="h1">
+                <p id="demo">Make landing page <br> fast and easily.</p>
+            </h1>
             <h3>Create custom landing pages with Shades that convert<br>more visitors than any website-no coding
                 required.
             </h3>
             <form>
                 <input placeholder="Enter your email" type="email" autofocus>
-                <button type="button" onclick="myFunction()">Subscribe</button>
-                <p id="demo"></p>
+                <button id="subbutton" type="button" onclick="myFunction()">Subscribe</button>
                 <h4>Trused by over 50,000+ customers</h4>
             </form>
         </main>

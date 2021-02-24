@@ -5,6 +5,7 @@
 body {
     background-color: rgba(209, 217, 253, 0.89);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 #container {
@@ -29,7 +30,7 @@ body {
     display: flex;
     align-items: center;
     outline: none;
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 #button1 :hover {
@@ -47,13 +48,18 @@ a {
     color: rgba(7, 0, 3, 0.781);
 }
 
-#get {  
+#getcolor {  
     border-radius: 3px;
     background: none;
     border: 2px solid rgb(47, 170, 241);
     color: rgb(47, 170, 241);
-    font-weight: 800;
+    font-weight: 400;
     cursor: pointer;
+    width: 120px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
 ol>li {
@@ -70,7 +76,7 @@ ol>li :hover {
     color: rgb(197, 51, 124);
 }
 
-button {
+#subbutton {
     background: #e63205;
     color: white;
     border: none;
@@ -79,6 +85,7 @@ button {
     border-radius: 3PX;
     cursor: pointer;
     outline: none;
+    
 }
 
 input {
@@ -107,7 +114,6 @@ h1 {
     font-size: 50px;
     color: rgb(24, 36, 75);
     margin-top: 20px;
-    color: rgb(24, 36, 75);
 }
 
 h2 {
