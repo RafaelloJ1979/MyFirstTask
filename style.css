@@ -31,11 +31,13 @@ body {
     align-items: center;
     outline: none;
     cursor: pointer;    
+    outline: none
 }
 
 #button1 :hover {
-    color: rgba(5, 111, 233, 0.534);
-    border: 2px solid rgba(5, 111, 233, 0.534);
+    color: rgba(50, 115, 255, 0.534);
+    border: 2px solid rgba(116, 140, 245, 0.767);
+    ;
 }
 
 img {
@@ -60,6 +62,7 @@ a {
     text-align: center;
     justify-content: space-around;
     align-items: center;
+    outline: none;
 }
 
 ol>li {
@@ -97,10 +100,29 @@ input {
     cursor: pointer;
 }
 
-input> ::placeholder:hover {
+input::placeholder:hover {
     text-decoration: none;
     border: none;
 }
+
+
+#inp {
+    background-color: rgb(187, 205, 223);
+    text-align: center;
+}
+
+#inp::placeholder {
+    text-decoration: none;
+    border: none;
+    background-color: slategrey;
+}
+
+#inp::placeholder:hover {
+    text-decoration: none;
+    border: none;
+    background-color: slategrey;
+}
+
 
 main {
     display: flex;
@@ -165,6 +187,7 @@ h4 {
     display: flex;
     letter-spacing: 2px;
 }
+
 
 
   

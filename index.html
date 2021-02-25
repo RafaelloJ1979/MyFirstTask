@@ -4,24 +4,15 @@
 <head>
     <meta charset="utf-8">
     <title>ZADANIE NA WEEKEND</title>
-    <meta name="descryption" content="width=device-width,intial-scale=1">
+    <meta name="viewport" content="width=device-width,intial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <script>
-        function myFunction() {
-            document.getElementById("demo").innerHTML = "Rafał Jaśkowski";
-            document.getElementById("demo").style.color = 'rgba(1, 128, 187, 0.685)';
-            document.getElementById("demo").style.fontSize = '60px';
-        }
-        function getColor() {
-            document.getElementById("h1").innerHTML = "Rafał Jaśkowski";
-            document.getElementById("h1").style.fontSize = '60px';
-            document.getElementById("h1").style.color = 'rgba(421, 363, 17, 1.678)';
-        }
-    </script>
-    <!-- dodany scrypt zmieniający treśc h1 i kolor tekstu  oraz zmieniający button get started-->
+    <script type="text/javascript" src="scrypt.js"></script>
+
+
 </head>
 
 <body>
+
     <div id="container">
         <div id="nav">
             <div id="header">
@@ -36,7 +27,8 @@
                 <li><a href="#contact">Contact</a></li>
             </ol>
             <div id="button1">
-                <button1 id="getcolor" onclick="getColor()">Get Started</button>
+
+                <button id="getcolor" onclick="getColor()">Get Started</button>
             </div>
         </div>
         <main>
@@ -44,6 +36,31 @@
             <h1 id="h1">
                 <p id="demo">Make landing page <br> fast and easily.</p>
             </h1>
+
+            <div id="tab1"></div>
+            <div id="tab2"></div>
+            <div id="tab3"></div>
+            <div id="tab4"></div>
+
+            <div class="tab">
+                <button class="tab1" onclick="openCity1(event, '')">Tab1</button>
+
+                <button class="tab2" onclick="openCity2(event, '')">Tab2</button>
+                <button class="tab3" onclick="openCity3(event, '')">Tab3</button>
+                
+                <button class="tab4" onclick="openCity4(event, '')">Tab4</button>
+              
+
+                <div class="openCity"></div>
+
+                <form>
+                    <div>
+                        <br />
+                        <input id="inp" type="text"><br />
+                    </div>
+                </form>
+            </div>
+
             <h3>Create custom landing pages with Shades that convert<br>more visitors than any website-no coding
                 required.
             </h3>
