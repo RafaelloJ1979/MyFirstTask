@@ -187,7 +187,12 @@ h4 {
     display: flex;
     letter-spacing: 2px;
 }
-
-
+#sum{
+    width: 100px;
+    height: 50px;
+  }
+iframe{
+    border: solid 5px red;
+}
 
   

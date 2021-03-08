@@ -12,19 +12,39 @@ function getColor() {
 }
 
 function openCity1() {
-    document.getElementById("tab1").innerHTML = "zmieniam na tekst ;)";
+
+    const myDiv = document.createElement('div')
+    myDiv.setAttribute('id', 'newCreatedDiv')
+    myDiv.innerHTML = "przykladowy tekst"
+
+    document.getElementById("h1").appendChild(myDiv)
 }
+
 function openCity2() {
-    document.getElementById("tab2").innerHTML = "zmiana koloru " ;
+    document.getElementById("newCreatedDiv").style.color = 'red'
 }
 
 function openCity3() {
-    document.getElementById("tab3").innerHTML = "tworzymy inputa";
-    document.createTextNode('pole '+i+': ');
+    let place = document.createElement('input');
+    place.setAttribute('id', 'myInput')
+    document.getElementById('newCreatedDiv').appendChild(place);
 }
 
 function openCity4() {
-    document.getElementById("tab4").innerHTML = "czwarty jak coś wpiszesz s inpucie i wycisniesz ten 4ty to żeby odmieniło jego tekst na ten z tego co jest w inpucie";
+    document.getElementById('myInput').setAttribute('value', 'dodany tekst')
 }
 
+
+
+// function sum(fistNumber , secondNumber) {
+	
+// 	return firstNumber + secondNumber ;
+// }
+
+// let person = new Object();
+// person.name = "Kamil";
+// person.age = 31;
+
+// console.log(person.name);
+// console.log(person.age);
 
