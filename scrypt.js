@@ -34,17 +34,3 @@ function openCity4() {
     document.getElementById('myInput').setAttribute('value', 'dodany tekst')
 }
 
-
-
-// function sum(fistNumber , secondNumber) {
-	
-// 	return firstNumber + secondNumber ;
-// }
-
-// let person = new Object();
-// person.name = "Kamil";
-// person.age = 31;
-
-// console.log(person.name);
-// console.log(person.age);
-
